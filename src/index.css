@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@import "flowbite/src/themes/default";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+#root {
+    @apply h-full
+    primary: #25ac7f;
+}
+
+body {
+    @apply bg-[#f6f8f7]
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
